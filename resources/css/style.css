@@ -61,20 +61,25 @@ h3 {
 
 /* Jumbotron Section */
 
+.jumbotron {
+  background-position: center;
+  background-size: cover;
+}
+
 .jumbotron-bike {
-  background-image: url("../../resources/images/jumbotron-bike.jpg");
+  background-image: url("../images/jumbotron-bike.jpg");
 }
 
 .jumbotron-beer {
-  background-image: url("../../resources/images/jumbotron-beer.jpg");
+  background-image: url("../images/jumbotron-beer.jpg");
 }
 
 .jumbotron-flowers {
-  background-image: url("../../resources/images/jumbotron-flowers.jpg");
+  background-image: url("../images/jumbotron-flowers.jpg");
 }
 
 .jumbotron-duffel {
-  background-image: url("../../resources/images/jumbotron-duffel.jpg");
+  background-image: url("../images/jumbotron-duffel.jpg");
 }
 
 .jumbotron {
@@ -106,7 +111,7 @@ h3 {
 
 .jumbotron p {
   margin: auto;
-  width: 51.3rem;
+  max-width: 51.3rem;
   text-align: center;
 }
 
@@ -115,11 +120,6 @@ h3 {
 .product-categories h3 {
   color: #399bd1;
 }
-
- /* .featured-project .image-container img:hover {
-  height: 19rem;
-}
-*/
 
 .image-container {
     overflow: hidden;
@@ -158,6 +158,6 @@ h3 {
 
 .having-trouble p {
   margin: auto;
-  width: 42rem;
+  max-width: 42rem;
   text-align: center;
 }
